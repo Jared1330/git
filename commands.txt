@@ -1,0 +1,11 @@
+Create PR: 
+git clone
+git branch feature/task
+git checkout feature/task
+git add .
+git commit -m "Ruslan Sezonenko - test commit"
+git push --set-upstream origin feature/task
+
+Revert commit: 
+git log ==> get last hash of commit
+git revert hash
